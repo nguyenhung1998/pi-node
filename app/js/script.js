@@ -9,13 +9,7 @@ $(function () {
     },
     activeClass = 'is-active',
     isPressed = false;
-
-	
-  document.getElementById('forward').addEventListener("onmousedown", socket.emit('start'));
-  document.getElementById('right').addEventListener("onmousedown", socket.emit('right'));
-  document.getElementById('left').addEventListener("onmousedown", socket.emit('left'));
-  document.getElementById('reverse').addEventListener("onmousedown", socket.emit('reverse'));
-  document.getElementById()
+    
   //listen for key presses
   $(document).keydown(function(e){
     //don't do anything if there's already a key pressed
