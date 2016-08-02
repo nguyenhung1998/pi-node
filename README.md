@@ -11,3 +11,9 @@ npm install express serialport johnny-five socket.io
 node index.js
 
 Using w,s,a,d to navigate your car
+
+Recomended: 
+
+https://github.com/magalhini/arduino-rgb-sockets
+
+https://github.com/sitepoint-editors/nodebot-sample
